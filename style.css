@@ -1,0 +1,229 @@
+:root {
+    --gradient: linear-gradient(45deg, #b16cea, #ff5e69, #ff8a56, #ffa84b);
+    --black-primary: #161513;
+    --black-secondary: #1c1c22;
+    --white-primary: #f0f2f5;
+    --white-secondary: #fff;
+}
+
+body {
+    background: var(--black-primary);
+    color: var(--white-secondary);
+    font-family: "Roboto", sans-serif;
+}
+#banner1 {
+    margin-top: 150px;
+}
+p {
+    margin-bottom: 50px;
+}
+.h1 { 
+    font-size: 51pt; 
+}
+.text-center {
+    text-align: center;
+}
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-65 {
+    width: 65%;
+}
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+#LogoIpsum {
+    filter: invert(1);
+    opacity: 0.6;
+    max-height: 100px;
+}
+#brands {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#brands #images {
+    width: 50%;
+    float: right;
+    text-align: right;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text-gradient {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#b16cea), from(#ff5e69), to(#ff8a56), to(#ffa84b));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.border-1 {
+    border: 1px solid;
+}
+.border-2 {
+    border: 2px solid;
+}
+.border-3 {
+    border: 3px solid;
+}
+.border-white-primary {
+    border-color: var(--white-primary);
+}
+.bg-gradient {
+    background: var(--gradient);
+}
+.bg-black-primary {
+    background-color: var(--black-primary);
+}
+.text-black-secondary {
+    color: var(--black-primary);
+}
+.bg-black-secondary {
+    background-color: var(--black-secondary);
+}
+.text-black-secondary {
+    color: var(--black-secondary);
+}
+.bg-white-primary {
+    background-color: var(--white-primary);
+}
+.text-white-primary {
+    color: var(--white-primary);
+}
+.bg-white-secondary {
+    background-color: var(--white-secondary);
+}
+.text-white-secondary {
+    color: var(--white-secondary);
+}
+.w-1400 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+#buttonSection {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+#menu {
+    margin-left: 50px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+header nav ul, footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+header nav ul li, footer ul li {
+    padding-right: 30px;
+}
+header nav ul a, footer ul a {
+    color: var(--white-secondary);
+    line-height: 50px;
+    text-decoration: none;
+}
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#about {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#name_about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#ui_ux {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#ui_ux ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#ui_ux ul li a {
+    font-size: 50px;
+    color: var(--white-secondary);
+    text-decoration: none;
+    line-height: 120px;
+    height: 120px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0 20px;
+}
+#ui_ux ul li {
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid #fff;
+    transition: all .2s;
+}
+#ui_ux ul li:last-child {
+    border-bottom: 2px solid #fff;
+}
+#ui_ux ul li:hover {
+    background: var(--gradient);
+    color: var(--white-primary);
+}
+#project_project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#project_text {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+#project_text p {
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-bottom: unset;
+}
+#project_project article {
+    max-width: 400px;
+    max-height: 400px;
+    background-color: var(--black-secondary);
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+}
+#project_project article img {
+    object-fit: cover;
+    object-position: center;
+    width: 400px;
+    height: 250px;
+}
+#project_project article p {
+    margin-bottom: 20px;
+}
+#project_project article section {
+    padding: 10px 20px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
